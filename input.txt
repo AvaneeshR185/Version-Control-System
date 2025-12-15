@@ -1,0 +1,51 @@
+CREATE test.txt
+READ test.txt
+HISTORY test.txt
+INSERT test.txt Hello world
+HISTORY test.txt
+READ test.txt
+ROLLBACK test.txt 0
+READ test.txt
+HISTORY test.txt
+ROLLBACK test.txt 1
+READ test.txt
+HISTORY test.txt
+INSERT test.txt India
+READ test.txt
+HISTORY test.txt
+UPDATE test.txt Hi
+READ test.txt
+HISTORY test.txt
+SNAPSHOT test.txt v1
+HISTORY test.txt
+UPDATE test.txt New text
+HISTORY test.txt
+READ test.txt
+SNAPSHOT test.txt v2
+HISTORY test.txt
+ROLLBACK test.txt 1
+HISTORY test.txt
+READ test.txt
+INSERT test.txt  Alpha
+READ test.txt
+HISTORY test.txt
+SNAPSHOT test.txt v3
+HISTORY test.txt
+READ test.txt
+ROLLBACK test.txt 2
+READ test.txt
+HISTORY test.txt
+CREATE test2.txt
+READ test2.txt
+HISTORY test2.txt
+CREATE test3.txt
+INSERT test2.txt This is file 2
+READ test2.txt
+READ test3.txt
+RECENT_FILES 2
+BIGGEST_TREES 2
+UPDATE test3.txt This is file 3
+RECENT_FILES 2
+SNAPSHOT test3.txt v1
+SNAPSHOT test2.txt v1
+RECENT_FILES 2
