@@ -1,9 +1,7 @@
 # In-Memory Version Control System
 
-**Name:** Avaneesh R  
+**Creator Name:** Avaneesh R  
 ---
-
-Name : Avaneesh R
 
 This is a model for an in-memory version control system like git. I have tried to make it as interactive and user-friendly as possible. Hope you will like it.
 
