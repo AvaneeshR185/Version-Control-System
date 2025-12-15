@@ -1,13 +1,9 @@
-# COL106 Assignment - In-Memory Version Control System
+# In-Memory Version Control System
 
 **Name:** Avaneesh R  
-**Entry No.:** 2024MT60222
-
 ---
 
 Name : Avaneesh R
-Entry No. : 2024MT60222
-COL106 ASSIGNMENT 
 
 This is a model for an in-memory version control system like git. I have tried to make it as interactive and user-friendly as possible. Hope you will like it.
 
